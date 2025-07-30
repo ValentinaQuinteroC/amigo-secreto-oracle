@@ -23,7 +23,7 @@ function agregarAmigo(){
 
 //actualiza la lista, y la muestra recorriendo uno por uno los elementos de la misma
 function actualizarLista() {
-    const ul = document.getElementById("listaAmigos");
+    let ul = document.getElementById("listaAmigos");
     ul.innerHTML = "";
 
     for (let amigo of listaAmigos) {
