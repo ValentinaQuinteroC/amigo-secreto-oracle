@@ -15,11 +15,36 @@ function agregarAmigo(){
     if (existente) {
         alert ("ese nombre ya fue agregado, intenta con uno diferente"); 
         return; 
-    } else {  // con esto se muestra al nombre en la lista y se limpia el espacio para escribir otro nombre
-    listaAmigos.push(amigo.trim()) }
-    let li = document.createElement("li");
-    li.textContent = amigo;
-    document.getElementById("listaAmigos").appendChild(li);
+    } 
+    listaAmigos.push(amigo.trim());
+    actualizarLista(); 
     document.getElementById('amigo').value = "";
 }
 
+//actualiza la lista, y la muestra recorriendo uno por uno los elementos de la misma
+function actualizarLista() {
+    const ul = document.getElementById("listaAmigos");
+    ul.innerHTML = "";
+
+    for (let amigo of listaAmigos) {
+    const li = document.createElement("li");
+    li.textContent = amigo;
+    ul.appendChild(li);
+  }
+}
+
+//escoge aleatoriamente un elemento de la lista como resultado
+function sortearAmigo () { 
+    let resultado = document.getElementById("resultado");
+    resultado.innerHTML = "";
+
+    if (listaAmigos.length === 0){ 
+        alert ("agrega un nombre para poder sortear");
+        return;
+    } 
+    let resultadoAleatorio = Math.floor(Math.random() * listaAmigos.length); 
+    let nombreAleatorio = listaAmigos[resultadoAleatorio]
+    let li = document.createElement("li")
+    li.textContent = `el amigo secreto es ${nombreAleatorio}` 
+    resultado.appendChild (li);
+}
