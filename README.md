@@ -33,7 +33,7 @@ Este proyecto es parte del Challenge #1 del programa ONE (Oracle Next Education)
 
 ## Acceso proyecto
 Puedes acceder al proyecto desde este repositorio o verlo online:  
-🔗 [Ver proyecto en GitHub Pages](https://valentinaquinteroc.github.io/amigo-secreto-oracle/)
+🔗 [Ver proyecto en GitHub Pages](https://github.com/ValentinaQuinteroC/amigo-secreto-oracle.git)
 
 📁 Clona este repositorio:
 
