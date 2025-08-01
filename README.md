@@ -11,7 +11,6 @@
 - [Características de la aplicación y demostración](#características-de-la-aplicación-y-demostración)
 - [Acceso al proyecto](#acceso-proyecto)
 - [Tecnologías utilizadas](#tecnologías-utilizadas)
-- [Personas desarrolladoras del proyecto](#personas-desarrolladoras-del-proyecto)
 - [Conclusión](#conclusión)
 
 
@@ -26,6 +25,31 @@ Este proyecto es parte del Challenge #1 del programa ONE (Oracle Next Education)
 - Añadir nombres de amigos, sin repetir, borrando el espacio cada vez que se agregan, mediante el uso de boton.
 - Mostrar en pantalla la lista de los nombres añadidos.
 - Sortear aleatoriamente un nombre mediante el uso de boton.
+- inicio de nuevo juego con boton
 - Interfaz sencilla y clara.
 
+## 🎬 Demostración
+![Demo de la app](./AmigoSecreto-GoogleChrome2025-08-0109-59-25-ezgif.com-video-to-gif-converter.gif)
 
+## Acceso proyecto
+Puedes acceder al proyecto desde este repositorio o verlo online:  
+🔗 [Ver proyecto en GitHub Pages](https://valentinaquinteroc.github.io/amigo-secreto-oracle/)
+
+📁 Clona este repositorio:
+
+```bash
+git clone https://github.com/ValentinaQuinteroC/amigo-secreto-oracle.git
+
+```
+
+## Tecnologías utilizadas
+✅HTML
+✅JavaScript
+✅CSS
+✅Visual Studio Code
+
+
+## Conclusión
+Con este reto, el usuario puede ingresar una lista de nombres sin repeticiones, verlos en pantalla y sortear de forma aleatoria un "amigo secreto", todo con una interfaz sencilla e intuitiva. También se incorporó un botón para reiniciar el juego, permitiendo volver a empezar sin recargar la página.
+
+Más allá del resultado funcional, este reto me permitió fortalecer mi lógica de programación, enfrentarme a errores reales y buscar soluciones por mi cuenta, lo cual ha sido esencial en mi proceso de aprendizaje como desarrolladora
