@@ -36,6 +36,7 @@ function actualizarLista() {
 //escoge aleatoriamente un elemento de la lista como resultado
 function sortearAmigo () { 
     let resultado = document.getElementById("resultado");
+    let listaHTML = document.getElementById("listaAmigos");
     resultado.innerHTML = "";
 
     if (listaAmigos.length === 0){ 
@@ -43,8 +44,15 @@ function sortearAmigo () {
         return;
     } 
     let resultadoAleatorio = Math.floor(Math.random() * listaAmigos.length); 
-    let nombreAleatorio = listaAmigos[resultadoAleatorio]
-    let li = document.createElement("li")
-    li.textContent = `el amigo secreto es ${nombreAleatorio}` 
-    resultado.appendChild (li);
+    let nombreAleatorio = listaAmigos[resultadoAleatorio];
+    resultado.innerHTML = `el amigo secreto es ${nombreAleatorio}`
+    listaHTML.innerHTML = "";
 }
+
+function reiniciarJuego() {
+    listaAmigos = [];
+    document.getElementById("listaAmigos").innerHTML = "";
+    document.getElementById("resultado").innerHTML = "";
+    document.getElementById("amigo").value = "";
+}
+
