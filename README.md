@@ -32,9 +32,6 @@ Este proyecto es parte del Challenge #1 del programa ONE (Oracle Next Education)
 ![Demo de la app](./AmigoSecreto-GoogleChrome2025-08-0109-59-25-ezgif.com-video-to-gif-converter.gif)
 
 ## Acceso proyecto
-Puedes acceder al proyecto desde este repositorio o verlo online:  
-🔗 [Ver proyecto en GitHub Pages](https://github.com/ValentinaQuinteroC/amigo-secreto-oracle.git)
-
 📁 Clona este repositorio:
 
 ```bash
